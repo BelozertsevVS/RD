@@ -11,7 +11,7 @@ public class PassengerCar extends Car {
     }
 
     {
-        System.out.println("7) Non Static Passenger Car initialization block 2 ");
+        System.out.println("7) Non Static Passenger Car initialization block 2");
     }
 
     public PassengerCar() {
