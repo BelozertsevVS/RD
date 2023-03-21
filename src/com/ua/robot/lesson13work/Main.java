@@ -5,9 +5,9 @@ import com.ua.robot.lesson13work.repository.EmployeeMemoryRepository;
 
 public class Main {
     public static void main(String[] args) {
-        EmployeeMemoryRepository repository = new EmployeeMemoryRepository();
+        EmployeeMemoryRepository employeeMemoryRepository = new EmployeeMemoryRepository();
 
-        Employee[] employees = repository.findAll();
+        Employee[] employees = employeeMemoryRepository.findAll();
         for (Employee employee : employees) {
             if (employee != null) {
                 System.out.println(employee);
