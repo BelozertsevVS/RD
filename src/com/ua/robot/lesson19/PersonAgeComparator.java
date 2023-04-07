@@ -3,6 +3,7 @@ package com.ua.robot.lesson19;
 import java.util.Comparator;
 
 public class PersonAgeComparator implements Comparator <Person> {
+
     @Override
     public int compare(Person o1, Person o2) {
         Integer age1 = o1.getAge();
@@ -10,3 +11,4 @@ public class PersonAgeComparator implements Comparator <Person> {
         return age1.compareTo(age2);
     }
 }
+
