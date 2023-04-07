@@ -1,6 +1,7 @@
 package com.ua.robot.lesson18;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -12,6 +13,17 @@ public class Main {
         list.add(2);
         list.add(3);
         list.add(4);
+
+        Iterator<Integer> ii = list.iterator();
+
+        while (ii.hasNext()){
+            Integer i1 = ii.next();
+            System.out.print(i1 + " ");
+        }
+
+        System.out.println();
+
+
 
         List<Double> doubles = new ArrayList<>();
 
